@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <form id="Formulario">
+        <h1>Productos</h1>
+        <div class="Consultar">
+            <h2>Consultar datos</h2>
+                
+            <button type="submit" id="btnConsultar">Consultar lista de Productos</button><br><br>
+            <div id="resultadosConsulta"></div>
+        </div>
+        
+        <table id="tablaProductos">
+            <thead>
+                <tr>
+                    <th>Número de Referencia</th>
+                    <th>Nombre</th>
+                    <th>Categoria</th>
+                    <th>Precio Unidad</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+        <div class="ActualizarPrecios">
+            <h2>Actualizar Precios</h2>
+            <button type="button" id="btnActualizarPrecios">Actualizar Precios (+10%)</button>
+            <div id="resultadoActualizacion"></div>
+        </div>
+
+
+        <div class="Consultar_numref">
+            <h2>Buscar Producto</h2>
+
+            <table class="tablaProductos2" id="tablaProductos2">
+                <thead>
+                    <th>Número de Referencia</th>
+                    <th>Nombre</th>
+                    <th>Categoria</th>
+                    <th>Precio Unidad</th>
+                    <th>Cantidad</th>
+                </thead>
+                <tbody id="tablaProductos2Body"></tbody>
+            </table>
+
+            <div>
+                <label class="buscarP">Buscar Producto</label>
+                <input type="text" id="buscarP" class="buscarP" placeholder="numero de referencia" required>
+                <button type="submit" id="buscar">Buscar</button>
+            </div>
+            <div id="resultados"></div>
+        </div>
+        
+
+    </form>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

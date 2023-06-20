@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color:#03C9DB;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#Formulario {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Consultar,
+.ActualizarPrecios,
+.Consultar_numref {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.Consultar_numref {
+  border: 1px solid #ccc;
+}
+
+#tablaProductos,
+#tablaProductos2 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#tablaProductos th,
+#tablaProductos2 th {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+}
+
+#tablaProductos td,
+#tablaProductos2 td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#btnConsultar,
+#btnActualizarPrecios,
+#buscar {
+  padding: 10px 20px;
+  background-color: #03C9DB;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buscarP {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+#resultadoActualizacion {
+  margin-top: 10px;
+}
